@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.tittle {
+  line-height: 5px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.up {
+  font-family: Rubik Moonrocks;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.down {
+  font-family: Rubik Moonrocks;
+  text-transform: uppercase;
+  font-size: 70px;
+}
+
+.down span {
+  font-size: 10px;
+  font-family: Montserrat;
+  text-transform: lowercase;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  width: 500px;
+  height: 700px;
+  border: 2px solid black;
+}
+
+table {
+  text-transform: capitalize;
+  font-family: Nunito;
+  font-weight: bold;
+}
+
+.identity {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.identitas {
+  text-transform: capitalize;
+  font-family: Nunito;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.resensi {
+  padding: 0 8px;
+  font-family: Open Sans;
+}
+
+footer {
+  text-align: center;
+  font-family: Nunito;
+}
+
+footer p {
+  font-style: italic;
+  padding: 4px 0;
+  color: whitesmoke;
+  background-color: black;
+  position: relative;
+  bottom: 17px;
+}
+
+.sosmed {
+  padding-top: 8px;
+}
+
+.open {
+  background-color: rgb(27, 26, 26);
+  color: whitesmoke;
+}
+
+.sosmed a {
+  padding: 4px 10px;
+  color: whitesmoke;
+}
+
+.sosmed a:hover {
+  color: cyan;
+}
+
+
+@media ( max-width : 400px ){
+  .down {
+    font-size: 50px;
+  }
+  iframe {
+    width: 345px;
+    height: 500px;
+  }
+}
